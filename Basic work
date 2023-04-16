@@ -1,0 +1,9 @@
+public static void main(String arg[]) {
+
+WebDriverManager().chromedriver().setup();
+WebDriver driver = new chromeDriver();
+driver.geturl();
+driver().manage().window().maximize();
+
+System.out.println("hi");
+}
