@@ -5,5 +5,8 @@ WebDriver driver = new chromeDriver();
 driver.geturl();
 driver().manage().window().maximize();
 
+driver.findelement(By.id("email"));
+
 System.out.println("hi");
+}
 }
